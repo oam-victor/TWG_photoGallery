@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colunas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    min-width: 320px;
+}
+
+.colunas img{
+    margin: 1px;
+    border: .5px dotted black;
+}
+
+.colunas:nth-child(1){
+    background: black;
+}
+
+.colunas:nth-child(2){
+    background: black;
+}
+
+.colunas:nth-child(3){
+    background: black;
+}
